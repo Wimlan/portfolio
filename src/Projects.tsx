@@ -57,6 +57,13 @@ function Projects() {
     <>
       <div id="projects"></div>
       <div data-aos="fade-left" id="projects-page">
+        <aside className="projects-notice" aria-labelledby="projects-notice-title">
+          <h3 id="projects-notice-title">The projects might be sleeping!</h3>
+          <p>
+            If you disturb them in their nap, they might need a little time to
+            wake. Please treat them with patience.
+          </p>
+        </aside>
         <h2>Projects</h2>
 
         <div id="project-list">
