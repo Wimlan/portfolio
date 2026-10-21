@@ -2,6 +2,7 @@ import "./assets/intropage.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import logo from "./assets/img/wilmaportfolio-logo02.png";
 
 function Intro() {
   useEffect(() => {
@@ -13,7 +14,7 @@ function Intro() {
         <div data-aos="fade-right" className="intro-left">
           <img
             width="250px"
-            src="../assets/img/wilmaportfolio-logo02.png"
+            src={logo}
             alt="logo"
           />
           <h2>WILMA YASUDA</h2>
