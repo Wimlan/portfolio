@@ -2,6 +2,16 @@ This is a portfolio designed by me and built in react.
 
 Page link: https://wilmayasuda.se
 
+## Deploying to GitHub Pages
+
+Run `npm run deploy` to build the site and publish the `dist` directory to the
+`gh-pages` branch of the Git remote named `origin`. The `predeploy` script runs
+the production build automatically before publishing.
+
+In the repository's **Settings > Pages**, select **Deploy from a branch**, then
+choose **gh-pages** and **/ (root)** after the first deployment. The Vite `base`
+setting must match the repository path used by GitHub Pages.
+
 ![alt text](src/assets/img/portfolio-design-thumbnail.jpg)
 
 About the creation of this page:
