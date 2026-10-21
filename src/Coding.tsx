@@ -2,6 +2,37 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import "./assets/coding.css";
 
+const courses = [
+  {
+    id: 1,
+    title: "Frontend Development",
+    institution: "IT-Högskolan (Gothenburg, Sweden)",
+    status: "Ongoing",
+    duration: "2 years full-time including an internship",
+  },
+  {
+    id: 2,
+    title: "Cybersecurity - Fundamentals and Awareness",
+    institution: "Linköping University",
+    status: "Finished",
+    duration: "Course",
+  },
+  {
+    id: 3,
+    title: "Basic Programming(C#)",
+    institution: "Luleå University of Technology",
+    status: "Finished",
+    duration: "Course",
+  },
+  {
+    id: 4,
+    title: "Web Development with HTML and CSS",
+    institution: "University West",
+    status: "Finished",
+    duration: "Course",
+  },
+];
+
 function Coding() {
   return (
     <>
@@ -20,47 +51,51 @@ function Coding() {
               (Hyogo, Japan)
             </p>
             <h3>Education</h3>
-            <p>
-              <h2>Ongoing:</h2>
-            </p>
-            <p>
-              <em>Frontend Development</em> <br />
-              at IT-Högskolan (Gothenburg, Sweden) <br />
-              (2 year education including an internship)
-            </p>
 
-            <p>
-              <h2>Finished:</h2>
-            </p>
-            <p>
-              <em>Web Development with HTML and CSS</em> <br /> at University
-              West
-              <br />
-              (Course)
-            </p>
-            <p>
-              <em>Basic Programming(C#)</em> <br /> at Luleå University of
-              Technology
-              <br />
-              (Course)
-            </p>
+            <h2>Ongoing:</h2>
+            {courses
+              .filter((course) => course.status === "Ongoing")
+              .map((course) => (
+                <p key={course.id}>
+                  <em>{course.title}</em> <br /> at {course.institution}
+                  <br />({course.duration})
+                </p>
+              ))}
+
+            <h2>Finished:</h2>
+
+            {courses
+              .filter((course) => course.status === "Finished")
+              .map((course) => (
+                <p key={course.id}>
+                  <em>{course.title}</em> <br /> at {course.institution}
+                  <br />({course.duration})
+                </p>
+              ))}
           </TabPanel>
           <TabPanel>
             <h3>Skills/Educational Content</h3>
             <h2>Languages</h2>
-            <p>Typescript, C#, Javascript, PHP, HTML5, CSS(Sass)</p>
+            <p>TypeScript, C#, JavaScript, PHP, HTML5, CSS(Sass)</p>
             <h2>Frontend frameworks</h2>
-            <p>React, Vue.js, Node.js</p>
+            <p>React, Vue.js, Tailwind CSS</p>
             <h2>Backend technology</h2>
             <p>.NET, Node.js, Express</p>
             <h2>Databases</h2>
-            <p>SQL</p>
-            <h2>Content Management</h2>
-            <p>CMS</p>
+            <p>PostgreSQL, SQLite</p>
+            <h2>Cloud (Azure)</h2>
+            <p>
+              Azure DevOps, Azure Portal, Azure Storage Explorer, Microsoft
+              Entra(coursework)
+            </p>
             <h2>UX/UI & Accessibility</h2>
             <p>Figma, User-Centered Design, WCAG</p>
             <h2>Tools & Processes</h2>
-            <p>Git, Scrum</p>
+            <p>Git, Trello, Agile</p>
+            <h2>Security & Compliance</h2>
+            <p>
+              GDPR, Password hashing, Cybersecurity fundamentals(coursework)
+            </p>
           </TabPanel>
         </Tabs>
       </section>

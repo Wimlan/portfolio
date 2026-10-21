@@ -14,9 +14,9 @@ function Aboutme() {
             development, graphic design, and UX/UI design in Japan for about 7
             years.
             <br /> <br />
-            As a web developer, the languages I most commonly use are HTML5,
-            CSS(Sass), Javascript, and Typescript. I also have experience using
-            C#.
+            I'm specializing in TypeScript and C#, with experience in Azure. I
+            have completed coursework in cybersecurity and am currently
+            expanding my knowledge in this area.
           </p>
         </div>
         <img
