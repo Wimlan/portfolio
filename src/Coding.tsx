@@ -46,6 +46,11 @@ function Coding() {
           <TabPanel>
             <h3>Work experience</h3>
             <p>
+              <strong>2026.08 - 2027.05</strong> <br />{" "}
+              <em>Software developer intern</em> <br /> Fellowmind (Gothenburg,
+              Sweden)
+            </p>
+            <p>
               <strong>2022.05 - 2025.04</strong> <br />{" "}
               <em>Frontend developer, Webdesigner</em> <br /> ONEPEACE Co., Ltd.
               (Hyogo, Japan)
