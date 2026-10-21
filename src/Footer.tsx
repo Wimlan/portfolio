@@ -13,14 +13,6 @@ function Footer() {
             <a href="#projects">Projects</a>
           </li>
 
-          {/*    <li>
-            <a href="#graphicdesign">Graphic Design</a>
-          </li> */}
-
-          <li>
-            <a href="#webdesign">UX/UI</a>
-          </li>
-
           <li>
             <a href="#contact">Contact</a>
           </li>

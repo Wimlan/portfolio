@@ -18,8 +18,7 @@
     "react-animate-on-scroll": "^2.1.9",
     "react-bootstrap": "^2.10.9",
     "react-dom": "^18.3.1",
-    "react-tabs": "^6.1.0",
-    "yet-another-react-lightbox": "^3.21.6"
+    "react-tabs": "^6.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

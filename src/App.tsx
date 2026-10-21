@@ -5,7 +5,6 @@ import Intro from "./Intropage";
 import Aboutme from "./Aboutme";
 import Coding from "./Coding";
 import Projects from "./Projects";
-import Webdesign from "./Webdesign";
 import Contact from "./Contact";
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
         <Coding />
         <div className="background-pink">
           <Projects />
-          <Webdesign />
         </div>
         <Contact />
       </div>

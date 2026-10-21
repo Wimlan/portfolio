@@ -48,11 +48,11 @@ function Coding() {
           <TabPanel>
             <h3>Skills/Educational Content</h3>
             <h2>Languages</h2>
-            <p>Javascript, PHP, HTML5, CSS(Sass), Typescript, C#</p>
+            <p>Typescript, C#, Javascript, PHP, HTML5, CSS(Sass)</p>
             <h2>Frontend frameworks</h2>
             <p>React, Vue.js, Node.js</p>
             <h2>Backend technology</h2>
-            <p>Node.js, Express</p>
+            <p>.NET, Node.js, Express</p>
             <h2>Databases</h2>
             <p>SQL</p>
             <h2>Content Management</h2>
