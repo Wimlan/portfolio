@@ -5,11 +5,9 @@ const projects = [
     title: "The Theatre Library",
     link: "https://thetheatrelibrary.onrender.com",
     languages: [
-      "Vue.js",
-      ".NET",
-      "Javascript",
+      "Vue.js/Javascript",
+      ".NET/C#",
       "Sass",
-      "C#",
       "PostgreSQL",
       "Cypress",
     ],
@@ -30,9 +28,19 @@ const projects = [
   {
     title: "My Bookshelf",
     link: "https://mybookshelf-gd5p.onrender.com",
-    languages: ["TypeScript", "React", "Express", "CSS Tailwind", "PostgreSQL"],
+    languages: [
+      "React.js/TypeScript",
+      "Express/TypeScript",
+      "CSS Tailwind",
+      "PostgreSQL",
+    ],
     img: "assets/img/mybookshelf-banner.png",
-    repo: [],
+    repo: [
+      {
+        link: "https://github.com/Wimlan/MyBookshelf.git",
+        name: "Fullstack Project",
+      },
+    ],
     description:
       "Designed and developed a modern, responsive homepage for seeing the books you own, and keeping track of their reading status. Implemented the frontend using React and Tailwind CSS, with a backend powered by Express and PostgreSQL.",
   },

@@ -5,7 +5,7 @@ import "./assets/coding.css";
 const courses = [
   {
     id: 1,
-    title: "Frontend Development",
+    title: "Fullstack Development focused on Frontend",
     institution: "IT-Högskolan (Gothenburg, Sweden)",
     status: "Ongoing",
     duration: "2 years full-time including an internship",
