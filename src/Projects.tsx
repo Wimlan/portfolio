@@ -42,7 +42,21 @@ const projects = [
       },
     ],
     description:
-      "Designed and developed a modern, responsive homepage for seeing the books you own, and keeping track of their reading status. Implemented the frontend using React and Tailwind CSS, with a backend powered by Express and PostgreSQL.",
+      "Built a responsive fullstack bookshelf app for organizing owned books and tracking reading status. Added Google Sign-In using OpenID Connect, with server-side ID token verification. Developed the frontend with React and Tailwind CSS, backed by an Express API and PostgreSQL.",
+  },
+  {
+    title: "Yasuda's Recipes",
+    link: "https://yasudas-recipes.onrender.com/#/",
+    languages: ["React/TypeScript", "Express/TypeScript", "Sass", "PostgreSQL"],
+    img: "assets/img/yasudasrecipes-banner.png",
+    repo: [
+      {
+        link: "https://github.com/Wimlan/yasudas_recipes.git",
+        name: "Fullstack Project",
+      },
+    ],
+    description:
+      "A collection of Yasuda's favorite recipes, allowing users to browse, search, and manage their personal recipe collection. Built with React, TypeScript and Sass for a responsive and visually appealing interface, with an Express API and PostgreSQL backend.",
   },
   {
     title: "Rock Paper Monsters",
