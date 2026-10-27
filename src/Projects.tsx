@@ -25,7 +25,16 @@ const projects = [
       },
     ],
     description:
-      "A mock streaming site for theatre productions, allowing users to browse, watch, and manage their favorite shows. Frontend built with Vue.js and Sass,  with end-to-end testing using Cypress. It uses a RESTful ASP.NET Core API for browsing theatre productions, with title and genre filtering and detailed show information backed by PostgreSQL.",
+      "A mock streaming site for theatre productions, allowing users to browse, watch, and manage their favorite shows. Frontend built with Vue.js and Sass, with end-to-end testing using Cypress. It uses a RESTful ASP.NET Core API for browsing theatre productions, with title and genre filtering and detailed show information backed by PostgreSQL.",
+  },
+  {
+    title: "My Bookshelf",
+    link: "https://mybookshelf-gd5p.onrender.com",
+    languages: ["TypeScript", "React", "Express", "CSS Tailwind", "PostgreSQL"],
+    img: "assets/img/mybookshelf-banner.png",
+    repo: [],
+    description:
+      "Designed and developed a modern, responsive homepage for seeing the books you own, and keeping track of their reading status. Implemented the frontend using React and Tailwind CSS, with a backend powered by Express and PostgreSQL.",
   },
   {
     title: "Rock Paper Monsters",
@@ -41,15 +50,6 @@ const projects = [
     description:
       "Won shared first place for the Junior Dev Sverige's Halloween competition 2025. This simple but fun twist on the classic Rock Paper Scissors game, challenges the player to survive against monsters in a style reminiscent of text-based RPGs.",
   },
-  {
-    title: "Dream Villiage",
-    link: "https://dreamvilliage.se/",
-    languages: ["Javascript", "HTML5", "CSS"],
-    img: "assets/img/dreamvilliage.jpg",
-    repo: [],
-    description:
-      "Designed and developed a modern, responsive homepage for the band Dream Villiage to establish their online presence and engage fans. Created the user interface design in Figma, focusing on brand identity and user-friendly navigation.",
-  },
 ];
 
 function Projects() {
@@ -57,7 +57,10 @@ function Projects() {
     <>
       <div id="projects"></div>
       <div data-aos="fade-left" id="projects-page">
-        <aside className="projects-notice" aria-labelledby="projects-notice-title">
+        <aside
+          className="projects-notice"
+          aria-labelledby="projects-notice-title"
+        >
           <h3 id="projects-notice-title">The projects might be sleeping!</h3>
           <p>
             If you disturb them in their nap, they might need a little time to
